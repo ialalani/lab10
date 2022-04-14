@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SRT621-Lab10</title>
+    <h1>Click on any book to see the details</h1>
+    <style>
+    h1{
+        color: aquamarine;
+        text-align:left;
+        font-size: 50px;
+    }
+    #bookpage{
+        text-align: center;
+        font-family: Courier;
+        font-size: 30px;
+        background-color: whitesmoke;
+        width: 400px;
+        height: 200px;
+        padding: 40px;
+        }
+    #book{
+        text-align: center;
+        font-family: Courier;
+        color: black;
+        width: 300px;
+        height: 20px;
+        padding: 15px ;
+        background-color: gray;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    </style>
+</head>
+<body>
+</br>
+<div id="bookpage"> 
+<p id="book"><a href="http://localhost:3000/books/1"><%=books[0].name %></a></p> </br>
+<p id="book"><a href="http://localhost:3000/books/2"><%=books[1].name %></a></p> </br>
+<p id="book"><a href="http://localhost:3000/books/3"><%=books[2].name %></a></p> </br>
+</div>
+</body>
+</html

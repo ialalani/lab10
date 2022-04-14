@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book 1</title>
+    <style>
+      #bookpage{
+        text-align: center;
+        font-family: Courier;
+        font-size: 30px;
+        background-color: whitesmoke;
+        width: 470px;
+        height: 220px;
+        padding: 10px;
+        }
+      #book{
+        text-align: center;
+        font-family: Courier;
+        color: black;
+        width: 400px;
+        height: 15px;
+        padding: 25px ;
+        background-color: gray;
+        }
+    </style>
+  </head>
+  <body>
+    <h1><%=books.name %></h1>
+    <div id="bookpage">
+      <p id="book">Author: <%=books.author %></p>
+      <p id="book"><a href= "<%=books.link%>">Buy on Amazon!</a></p>
+    </div>
+  </body>
+</html>
